@@ -1,0 +1,30 @@
+.indicators {
+  position: relative;
+  bottom: 0;
+  display: none;
+  width: 300px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+    text-align: center;
+    color: #222222;
+    border-radius: 12px;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &_item {
+    &.active {
+      color: #ffffff;
+      background-color: #222222;
+      box-shadow: 0 0 15px #ffffff;
+    }
+  }
+}
